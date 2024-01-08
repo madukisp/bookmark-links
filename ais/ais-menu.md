@@ -1,5 +1,5 @@
 # Menu for ais
 
-- [chatboot-search](ais/chatboot-search.md)
-- [images](ais/images.md)
-- [virtual-assistants.](ais/virtual-assistants.md)
+- [🤖 Virtual Assistants!](virtual-assistants..md)
+- [🤖 Chatboot Search](chatboot-search.md)
+- [🎨 AI Image Creators!](images.md)]
