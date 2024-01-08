@@ -19,11 +19,13 @@ function updateMenuFiles(directories) {
   directories.forEach(dir => {
     const menuFileName = `${dir}-menu.md`;
     const menuFilePath = path.join(dir, menuFileName);
-    let mdFiles = fs.readdirSync(dir)
-      .filter(file => file.endsWith('.md') && file !== menuFileName)
-      // Create a Markdown link for each file
-      .map(file => `- [${capitalize(file.replace('.md', ''))}](./${file})`)
-      .join('\n');
+
+    const mdFiles = fs.readdirSync(dir)
+    .filter(file => file.endsWith('.md') && file !== menuFileName)
+    .map(file => `- [${capitalize(file.replace('.md', ''))}](./${file})`) // Remova o ponto extra aqui
+    .join('\n');
+
+
 
     // If there are no markdown files other than the menu, add a placeholder
     if (!mdFiles) mdFiles = 'No additional documentation available.';
