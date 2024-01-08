@@ -4,12 +4,6 @@ Welcome to my repository of favorite links! This space is dedicated to organizin
 
 ## Index
 - [Ais](ais/ais-menu.md)
-
-- [Ais](ais/ais-menu.md)
-
-- [Ais](ais/ais-menu.md)
-
-
 ## How to Contribute
 
 I would love to see your contribution! If you have an awesome link to share:
