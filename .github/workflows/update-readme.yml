@@ -1,36 +1,39 @@
-name: Update README
+name: Atualizar README e Menus
 
-on: [push]
+on:
+  push:
+    paths:
+      - '**/*'
+  pull_request:
+    paths:
+      - '**/*'
+  create:
 
-permissions:
-  contents: write
 
 jobs:
-  update-readme:
+  update-readme-and-menus:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout do repositório
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '14'
+      - name: Configurar Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
 
-    - name: Install dependencies
-      run: npm install fs path
+      - name: Instalar dependências
+        run: npm install
 
-    - name: Update README
-      run: node updateReadme.js
+      - name: Atualizar README e Menus
+        run: node updateReadme.js
 
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add README.md
-        git commit -m "Updated README with dynamic index" -a || exit 0
-        git push --set-upstream origin HEAD:main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
+      - name: Commitar e fazer push se houver mudanças
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add . # Adiciona todas as alterações ao staging
+          git diff --staged --quiet || git commit -m "Atualização automática do README e Menus" # Faz commit se houver mudanças
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

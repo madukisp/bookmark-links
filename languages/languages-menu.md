@@ -1,2 +1,3 @@
-# Menu for Languages
+# Menu for languages
 
+- [ruby](languages/ruby.md)
