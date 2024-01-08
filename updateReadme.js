@@ -21,7 +21,8 @@ function updateMenuFiles(directories) {
     const menuFilePath = path.join(dir, menuFileName);
     let mdFiles = fs.readdirSync(dir)
       .filter(file => file.endsWith('.md') && file !== menuFileName)
-      .map(file => `- [${capitalize(file.replace('.md', ''))}](${dir}/${file})`)
+      // Create a Markdown link for each file
+      .map(file => `- [${capitalize(file.replace('.md', ''))}](./${file})`)
       .join('\n');
 
     // If there are no markdown files other than the menu, add a placeholder
@@ -30,17 +31,6 @@ function updateMenuFiles(directories) {
     const menuContent = `# Menu for ${capitalize(path.basename(dir))}\n\n## Index\n${mdFiles}\n`;
     fs.writeFileSync(menuFilePath, menuContent);
   });
-}
-
-// Function to create the index with links to menu files
-function createIndex(directories) {
-  const indexEntries = directories.map(dir => {
-    const name = path.basename(dir);
-    const menuFile = `${name}/${name}-menu.md`;
-    return `- [${capitalize(name)}](${menuFile})`;
-  });
-
-  return `## Index\n${indexEntries.join('\n')}\n`;
 }
 
 // Main function to update README and menu files
@@ -56,4 +46,5 @@ function updateReadmeAndMenus() {
   fs.writeFileSync('README.md', readmeContent);
 }
 
+// Run the main function
 updateReadmeAndMenus();
