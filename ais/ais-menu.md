@@ -1,3 +1,4 @@
 # Menu for Ais
 
-- [Virtual Assistants](/ais/Virtual Assistants.md)
+- [Virtual Assistants](Virtual Assistants.md)
+
