@@ -1,4 +1,4 @@
-# Links de templates de sites
+# Templates de sites
 
 | Nome | Descrição | Tags |
 |------|-----------|------|
