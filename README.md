@@ -3,10 +3,10 @@
 Bem-vindo ao meu repositório de links favoritos! Este espaço é dedicado a organizar e compartilhar os recursos mais valiosos e interessantes que encontro sobre diversos tópicos. Aqui, você encontrará uma coleção categorizada de links que facilita a busca e o acesso a recursos sobre programação, ciência, lazer e muito mais.
 
 ## Índice
-- [Ais](menu/ais.md)
+- [Ais](Menu/ais.md)
 - [Cursos](Menu\cursos.md)
 - [Kids](Menu\kids.md)
-- [Repositórios](Menu\repositorios.md)]
+- [Repositórios](Menu\repositorios.md)
 - [Templates de sites](Menu\templates.md)
 
 ## Como Contribuir
