@@ -3,7 +3,9 @@
 Welcome to my repository of favorite links! This space is dedicated to organizing and sharing the most valuable and interesting resources I come across on various topics. Here, you'll find a categorized collection of links that make it easy to search for and access resources on programming, science, leisure, and more.
 
 ## Index
-- [Ais](ais/ais-menu.md)
+- [Ais](menu/ais.md)
+
+
 ## How to Contribute
 
 I would love to see your contribution! If you have an awesome link to share:
