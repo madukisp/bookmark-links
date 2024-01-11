@@ -4,8 +4,10 @@ Bem-vindo ao meu repositório de links favoritos! Este espaço é dedicado a org
 
 ## Índice
 - [Ais](menu/ais.md)
+- [Cursos](Menu\cursos.md)
+- [Kids](Menu\kids.md)
+- [Repositórios](Menu\repositorios.md)]
 - [Templates de sites](Menu\templates.md)
-- [Kids](Menu\kids.md)]
 
 ## Como Contribuir
 
