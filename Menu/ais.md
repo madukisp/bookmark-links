@@ -1,10 +1,9 @@
-# Minha Coleção de Links
+# 🤖 Assistentes Virtuais
 
 Bem-vindo à minha coleção de links! Aqui você encontrará uma seleção cuidadosamente curada de recursos que considero interessantes e úteis.
 
 🌟 Dica: Use os filtros de pesquisa de seu navegador (Ctrl/Cmd + F) para encontrar rapidamente o que você procura na tabela!
 
-### 👤 Assistentes Virtuais
 
 | Emoji | Nome | Descrição | Tags |
 |-------|------|-----------|------|

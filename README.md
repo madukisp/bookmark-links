@@ -4,6 +4,7 @@ Welcome to my repository of favorite links! This space is dedicated to organizin
 
 ## Index
 - [Ais](menu/ais.md)
+- [Kids](Menu\kids.md)
 
 
 ## How to Contribute
