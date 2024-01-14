@@ -11,10 +11,16 @@
 
 ---
 
-## Imagens
+## Gerador de Imagens
 
 | Nome | Descrição |
 |--------------|-----------|
 | [Leonardo.Ai](https://app.leonardo.ai/) | Leonardo é uma plataforma de IA que permite que você crie imagens de alta qualidade com facilidade. |
 
 ---
+
+## Gerador de Icones
+
+| Nome | Descrição |
+|--------------|-----------|
+| [IconKit](https://iconkit.ai/) | IconKit é um gerador de ícones de IA que cria ícones impressionantes e exclusivos, adaptados às suas necessidades. Do elegante e moderno ao divertido e extravagante, garantimos que cada ícone combina perfeitamente com a sua visão de design. |
