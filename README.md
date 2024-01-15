@@ -5,6 +5,7 @@ Bem-vindo ao meu repositório de links favoritos! Este espaço é dedicado a org
 ## Índice
 - [Ais](Menu/ais.md)
 - [Cursos](Menu/cursos.md)
+- [Ferramentas de estudos](Menu\ferramentas-de-estudos.md)]
 - [Jogos para aprender programação](Menu\jogos-programacao.md)
 - [Kids](Menu/kids.md)
 - [Repositórios](Menu/repositorios.md)
