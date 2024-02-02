@@ -6,6 +6,7 @@
 
 | Nome | Descrição |
 |------|-----------|
+| [Educative](https://www.educative.io/) | Plataforma de PROJETOS. |
 | [Grammarly](https://www.grammarly.com/) | Ferramenta de escrita baseada em IA para melhorar habilidades de escrita e detectar plágio. |
 | [CopyAI](https://www.copy.ai/) | Ferramenta de IA para geração rápida de conteúdo escrito de alta qualidade. |
 | [Quillbot](https://quillbot.com/) | Conjunto de ferramentas de escrita impulsionadas por IA, incluindo reescrita de textos e verificação gramatical. |
